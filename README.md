@@ -1,4 +1,4 @@
-Incident Report App
+ Incident Report App
 
 Welcome to the Incident Report App repository. This application streamlines the process of reporting, managing, and reviewing incidents for organizations, ensuring seamless communication and accountability.
 
@@ -64,6 +64,8 @@ incident-report-master/
 └── package.json     # Project metadata and dependencies  
 
 Contribution
+1. Moksharth Mandaliya 
+		github id (moksharth3005)
 
 We welcome contributions! To contribute:
 	1.	Fork the repository.
@@ -80,7 +82,7 @@ Contact
 
 For questions or feedback, please reach out to:
 	•	Owner: Daksh Patel
-	•	Email: [YourEmail@example.com]
+	•	Email: [Daxindia14@gmail.com]
 	•	GitHub: https://github.com/PatelDaksh0
 
 Let me know if you need any specific adjustments!
