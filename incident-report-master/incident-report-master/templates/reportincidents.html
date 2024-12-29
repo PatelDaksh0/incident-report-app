@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="https://mail.google.com/mail/u/1?ui=2&ik=ed9f0e9c9f&attid=0.1&permmsgid=msg-a:r-4587052252044434156&th=18b7354d659966cf&view=att&disp=safe&realattid=f_lo97i07u0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reprot-incidents</title>
+</head>
+  <body background="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTU5NDg4NC1pbWFnZS1rd3Z4cnkzaC5qcGc.jpg" style = "background-repeat:  no-repeat; background-size: 100%; text-color: white">
+    <div class="pure-menu pure-menu-horizontal">   
+      <div class="pure-menu pure-menu-horizontal">
+          <a href="/incident" class="pure-menu-heading pure-menu-link">Incident Report App</a>
+          <ul class="pure-menu-list" align = "right">
+            <li class = "pure-menu-item">
+              <a href = "/Report" class = "pure-menu-link">Report An Incident</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="/logout" class="pure-menu-link">Log out</a>
+            </li>
+          </ul>
+      </div>
+  <div align = "center">
+      <h1>Report A New Incident</h1>
+      <br><br>
+      <form class = "pure-form" method = "POST" action = "/Report">
+        State: 
+        <select name = "state" required>
+          <option>AL</option>
+          <option>AK</option>
+          <option>AZ</option>
+          <option>AR</option>
+          <option>CA</option>
+          <option>CO</option>
+          <option>CT</option>
+          <option>DE</option>
+          <option>FL</option>
+          <option>GA</option>
+          <option>HI</option>
+          <option>ID</option>
+          <option>IL</option>
+          <option>IN</option>
+          <option>IA</option>
+          <option>KS</option>
+          <option>KY</option>
+          <option>LA</option>
+          <option>ME</option>
+          <option>MD</option>
+          <option>MA</option>
+          <option>MI</option>
+          <option>MN</option>
+          <option>MS</option>
+          <option>MO</option>
+          <option>MT</option>
+          <option>NE</option>
+          <option>NV</option>
+          <option>NH</option>
+          <option>NJ</option>
+          <option>NM</option>
+          <option>NY</option>
+          <option>NC</option>
+          <option>ND</option>
+          <option>OH</option>
+          <option>OK</option>
+          <option>OR</option>
+          <option>PA</option>
+          <option>RI</option>
+          <option>SC</option>
+          <option>SD</option>
+          <option>TN</option>
+          <option>TX</option>
+          <option>UT</option>
+          <option>VT</option>
+          <option>VA</option>
+          <option>WA</option>
+          <option>WV</option>
+          <option>WI</option>
+          <option>WY</option>
+        </select>
+        <font style = 'margin-left: 10px'>Zip Code:</font>
+        <input type = "text" placeholder = "Enter Zip Code" name = "Zip" required>
+        Ex: 12345
+        <br><br>
+        Location:
+        <input type = "text" placeholder = "Enter Location" name = "Location" required>
+        Ex: 123 Main St.(Max Charecters: 250)
+        <br><br>
+        Incident Type:
+        <input type = "text" placeholder = "Enter Incident Type" name = "Type" required>
+        Ex: Theft(Max Charecters: 130)
+        <br><br>
+        Description:
+        <input type = "text" placeholder = "Enter Description" name = "Desc" required>
+        Ex: X amount of money stolen from my home(Max Charecters: 1000)
+        <br><br>
+        <input type = "submit" value = "Submit" name = "Reported" class = "pure-button pure-button-active">
+      </form>
+  </div>
+</body>
+</html>
